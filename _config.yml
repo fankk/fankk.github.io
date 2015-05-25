@@ -1,0 +1,38 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               Fankk Development Blog
+tagline:             
+url:                 http://fankk.github.io
+paginate:            1
+baseurl:             ""
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+authors:
+  marino:
+    name:              Marino Di Clemente
+    url:               https://github.com/kernelfolla
+    email:             kernelfolla@gmail.com
+  francesco:
+    name:              Francesco Campana
+    url:               https://github.com/fcamp
+# Custom vars
+version:             1.0.0
+github:
+  repo:              https://github.com/fankk/fankk.github.io
+
+pages_list:       
+  About: '/about'
+  Archive: '/archive'
+  Feed: '/atom.xml'
